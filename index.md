@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I am currently a second-year Ph.D. student at the Australian Artificial Intelligence Institute (AAII) based in the University of Technology Sydney (UTS), working under the supervision of [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
-I received my Master's degree from Shanghai University, and during my doctoral studies, I have also been fortunate to receive guidance from [Assistant Professor Meng Fang](https://scholar.google.com/citations?user=IcNYP1oAAAAJ&hl=en) and [Dr. Yunqiu Xu](https://scholar.google.com/citations?hl=en&user=6kfxdwoAAAAJ).
+I received my Master's degree from Shanghai University, and during my doctoral studies, I have also been fortunate to receive guidance from [Dr. Meng Fang](https://scholar.google.com/citations?user=IcNYP1oAAAAJ&hl=en) and [Dr. Yunqiu Xu](https://scholar.google.com/citations?hl=en&user=6kfxdwoAAAAJ).
  
 
 My research interests center around natural language processing (NLP) and reinforcement learning (RL), with a particular focus on the application of large language models in decision-making and machine ethics.
