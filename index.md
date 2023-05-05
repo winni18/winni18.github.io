@@ -13,7 +13,7 @@ My research interests center around **natural language processing (NLP)** and **
 
 
 ## News
-- **[Apr. 2023]** Delivered an invited talk at the EACL 2023 conference.
+- **[May. 2023]** Delivered an invited talk at the EACL 2023 conference.
 - **[Apr. 2023]** One co-authored paper has been accepted at the ACL 2023 conference.
 - **[Jan. 2023]** One paper has been accepted at the EACL 2023 conference.
 - **[Jan. 2023]** One paper has been accepted at the ICLR 2023 conference.
