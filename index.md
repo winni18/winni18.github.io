@@ -30,7 +30,7 @@ My research interests center around **natural language processing (NLP)** and **
 - **[Sep. 2020]** National Second Prize in China Postgraduate Mathematical Contest in Modeling
 - **[Dec. 2019]** Second Prize in the Quantitative Investment Strategy Competition
 - **[Oct. 2019]** Second Prize Postgraduate Scholarship
-- **[Sep. 2019]** National Third Prize in China Postgraduate Mathematical Contest in Modeling
+<!-- - **[Sep. 2019]** National Third Prize in China Postgraduate Mathematical Contest in Modeling -->
 - **[Oct. 2018]** First Prize Postgraduate Scholarship
 - **[Jun. 2018]** Outstanding Graduate Award (Bachelor)
 - **[Jun. 2018]** Excellent Graduation Thesis Award (Bachelor)
