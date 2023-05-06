@@ -23,7 +23,7 @@ My research interests center around **natural language processing (NLP)** and **
 
 <!-- {% include_relative _includes/services.md %} -->
 
-## Awards
+## Selected Awards
 - **[Jun. 2021]** Outstanding Graduate Award (Master)
 - **[Oct. 2020]** China National Scholarship for Postgraduate Studies
 - **[Oct. 2020]** First Prize Postgraduate Scholarship
