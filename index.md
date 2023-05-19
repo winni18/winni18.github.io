@@ -14,7 +14,7 @@ My research interests center around **natural language processing (NLP)** and **
 
 ## News
 - **[June 2023]** I will give an invited talk at [AI Time](https://www.aitime.cn/).
-- **[May 2023]** Nominated for the Google PhD Fellowship.
+<!-- - **[May 2023]** Nominated for the Google PhD Fellowship. -->
 - **[May 2023]** Delivered an invited talk at the EACL 2023.
 - **[Apr. 2023]** One co-authored paper has been accepted at the ACL 2023 conference.
 - **[Mar. 2023]** Delivered an invited talk at [RL China](http://rlchina.org/).
@@ -27,7 +27,7 @@ My research interests center around **natural language processing (NLP)** and **
 <!-- {% include_relative _includes/services.md %} -->
 
 ## Selected Awards
-- **[Jun. 2021]** Outstanding Graduate Award (Master)
+- **[June 2021]** Outstanding Graduate Award (Master)
 - **[Oct. 2020]** China National Scholarship for Postgraduate Studies
 - **[Oct. 2020]** First Prize Postgraduate Scholarship
 - **[Sep. 2020]** National Second Prize in China Postgraduate Mathematical Contest in Modeling
@@ -35,6 +35,6 @@ My research interests center around **natural language processing (NLP)** and **
 - **[Oct. 2019]** Second Prize Postgraduate Scholarship
 <!-- - **[Sep. 2019]** National Third Prize in China Postgraduate Mathematical Contest in Modeling -->
 - **[Oct. 2018]** First Prize Postgraduate Scholarship
-- **[Jun. 2018]** Outstanding Graduate Award (Bachelor)
-- **[Jun. 2018]** Excellent Graduation Thesis Award (Bachelor)
-- **[Jun. 2017]** First Prize Undergraduate Scholarship
+- **[June 2018]** Outstanding Graduate Award (Bachelor)
+- **[June 2018]** Excellent Graduation Thesis Award (Bachelor)
+- **[June 2017]** First Prize Undergraduate Scholarship
