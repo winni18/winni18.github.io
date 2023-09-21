@@ -13,7 +13,7 @@ My research interests center around **natural language processing (NLP)** and **
 
 
 ## News
-- **[June 2023]** I will give an invited talk at [AI Time](https://www.aitime.cn/).
+- **[June 2023]** Delivered an invited talk at [AI Time](https://www.aitime.cn/).
 <!-- - **[May 2023]** Nominated for the Google PhD Fellowship. -->
 - **[May 2023]** Delivered an invited talk at the EACL 2023.
 - **[Apr. 2023]** One co-authored paper has been accepted at the ACL 2023 conference.
