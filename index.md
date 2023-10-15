@@ -38,4 +38,4 @@ My research interests center around **natural language processing (NLP)** and **
 <!-- - **[Oct. 2018]** First Prize Postgraduate Scholarship
 - **[June 2018]** Outstanding Graduate Award (Bachelor)
 - **[June 2018]** Excellent Graduation Thesis Award (Bachelor)
-- **[June 2017]** First Prize Undergraduate Scholarship --> -->
+- **[June 2017]** First Prize Undergraduate Scholarship --> 
