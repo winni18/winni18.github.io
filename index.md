@@ -13,7 +13,7 @@ My research interests center around **natural language processing (NLP)** and **
 
 
 ## News
-
+- **[Oct. 2023]** 1st place in UTS School Showcase.
 - **[June 2023]** Delivered an invited talk at [AI Time](https://www.aitime.cn/).
 <!-- - **[May 2023]** Nominated for the Google PhD Fellowship. -->
 - **[May 2023]** Delivered an invited talk at the EACL 2023.
