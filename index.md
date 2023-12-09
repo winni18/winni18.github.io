@@ -13,6 +13,7 @@ My research interests center around **natural language processing (NLP)** and **
 
 
 ## News
+- **[Dec. 2023]** One paper and one co-author paper have been accepted at AAAI 2024.
 - **[Dec. 2023]** Achieved HDR WiEIT (Women in Engineering and IT) Award.
 - **[Oct. 2023]** Achieved 1st place in School of Computer Science Research Showcase.
 - **[June 2023]** Delivered an invited talk at [AI Time](https://www.aitime.cn/).
