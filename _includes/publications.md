@@ -15,7 +15,7 @@
     <div class="periodical"><em><strong>AAAI</strong> 2024.</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2401.09334" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/hyintell/LLMSymbolic" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
+      <a href="https://github.com/hyintell/LLMSymbolic" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
   </div>
 </div>
@@ -33,7 +33,7 @@
     <div class="periodical"><em><strong>AAAI</strong> 2024.</em></div>
     <div class="links">
       <a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/241855945/AAAI_humal_3_.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://winni18.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
+      <a href="https://winni18.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> 
       <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
     </div>
   </div>

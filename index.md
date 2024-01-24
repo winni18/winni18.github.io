@@ -7,14 +7,13 @@ layout: homepage
 
 I'm a second-year Ph.D. student at AAII UTS, supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
 I have also been fortunate to receive guidance from [Dr. Meng Fang](https://mengf1.github.io/), [Dr. Yali Du](https://yalidu.github.io/) and [Dr. Yunqiu Xu](https://www.linkedin.com/in/yunqiu-xu-53052ab4/).
- 
 
-My research focuses on two key areas: 
-- Developing LLM and RL agents for language interaction tasks.
-- Value alignment and bias mitigation in language models.
+My research focuses on: 
+- Developing **LLM and RL agents** for natural language interaction;
+- **Value alignment** and **bias mitigation** in language models.
 
 
-<span style="color: blue;">Seeking Research Interns in 2024 \[AU/US/Remote] - feel free to reach out for opportunities!</span>
+<span style="color: red;">Seeking Research Interns in 2024 \[AU/US/Remote] - feel free to reach out for opportunities!</span>
 
 
 ## News
