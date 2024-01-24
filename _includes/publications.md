@@ -13,11 +13,10 @@
     <div class="title"><a >Large Language Models are Neurosymbolic Reasoners </a></div>
     <div class="author">Meng Fang*, Shilong Deng*, Yudi Zhang*, <strong>Zijing Shi</strong>, Ling Chen, Mykola Pechenizkiy, Jun Wang</div>
     <div class="periodical"><em><strong>AAAI</strong> 2024.</em></div>
-    <!-- <div class="links">
-      <a href="https://arxiv.org/abs/2305.11262" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/hyintell/CHBias" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
-      <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
-    <!-- </div> -->
+    <div class="links">
+      <a href="https://arxiv.org/abs/2401.09334" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/hyintell/LLMSymbolic" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
+    </div>
   </div>
 </div>
 </li>
@@ -32,11 +31,11 @@
     <div class="title"><a>Human-Guided Moral Decision Making in Text-based Games</a></div>
     <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen, Yali Du, Jun Wang</div>
     <div class="periodical"><em><strong>AAAI</strong> 2024.</em></div>
-    <!-- <div class="links">
-      <a href="https://arxiv.org/abs/2305.11262" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/hyintell/CHBias" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
-      <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
-    <!-- </div> -->
+    <div class="links">
+      <a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/241855945/AAAI_humal_3_.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://winni18.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
+      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+    </div>
   </div>
 </div>
 </li>
@@ -54,7 +53,6 @@
     <div class="links">
       <a href="https://arxiv.org/abs/2305.11262" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hyintell/CHBias" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
     </div>
   </div>
 </div>
@@ -73,7 +71,6 @@
     <div class="links">
       <a href="https://openreview.net/pdf?id=CtS2Rs_aYk" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/winni18/MorAL" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
     </div>
   </div>
 </div>
@@ -94,7 +91,6 @@
     <div class="links">
       <a href="https://aclanthology.org/2023.eacl-main.50.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/winni18/CSM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <!-- <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
     </div>
   </div>
 </div>
