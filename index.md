@@ -6,7 +6,7 @@ layout: homepage
 
 
 I'm a second-year Ph.D. student at AAII UTS, supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
-I have also been fortunate to receive guidance from [Dr. Meng Fang](https://mengf1.github.io/), [Dr. Yali Du](https://yalidu.github.io/) and [Dr. Yunqiu Xu](https://www.linkedin.com/in/yunqiu-xu-53052ab4/).
+I have also been fortunate to receive guidance from [A/Prof. Meng Fang](https://mengf1.github.io/), [A/Prof. Yali Du](https://yalidu.github.io/).
 
 My research focuses on: 
 - Developing **LLM and RL agents** for natural language interaction;
