@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 
-I'm a second-year Ph.D. student at AAII UTS, supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
+I'm a third-year Ph.D. student at AAII UTS, supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
 I have also been fortunate to receive guidance from [A/Prof. Meng Fang](https://mengf1.github.io/), [A/Prof. Yali Du](https://yalidu.github.io/).
 
 My research focuses on: 
