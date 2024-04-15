@@ -5,11 +5,11 @@ layout: homepage
 ## About Me
 
 
-I'm a third-year Ph.D. student at AAII UTS, supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
-I have also been fortunate to receive guidance from [A/Prof. Meng Fang](https://mengf1.github.io/), [A/Prof. Yali Du](https://yalidu.github.io/).
+I'm a third-year Ph.D. student at [AAII UTS](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
+I have also been fortunate to receive guidance from [A/Prof. Meng Fang](https://mengf1.github.io/) at the University of Liverpool, [A/Prof. Yali Du](https://yalidu.github.io/) at King's College London.
 
 My research focuses on: 
-- Developing **LLM and RL agents** for natural language interaction;
+- Developing **LLM and RL agents** for language interaction;
 - **Value alignment** and **bias mitigation** in language models.
 
 
