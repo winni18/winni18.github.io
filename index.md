@@ -17,6 +17,7 @@ My research focuses on:
 
 
 ## News
+- **[May 2024]** One co-authored paper has been accepted at ACL 2024 findings.
 - **[Dec. 2023]** One co-authored paper has been accepted at AAAI 2024 (Main Track).
 - **[Dec. 2023]** One paper has been accepted at AAAI 2024 (Oral, SRRAI Track).
 - **[Dec. 2023]** Achieved HDR WiEIT (Women in Engineering and IT) Award.
