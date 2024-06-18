@@ -17,8 +17,8 @@ My research focuses on:
 
 
 ## News
-- **[Jun. 2024]** One paper titled ''Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game'' has been accepted at ACL 2024 Wordplay Workshop.
-- **[May 2024]** One co-authored paper titled ''More than Minorities and Majorities: Understanding Multilateral Bias in Language Generation'' has been accepted at ACL 2024 findings.
+- **[Jun. 2024]** One paper has been accepted at ACL 2024 Wordplay Workshop.
+- **[May 2024]** One co-authored paper has been accepted at ACL 2024 findings.
 - **[Dec. 2023]** One co-authored paper has been accepted at AAAI 2024 (Main Track).
 - **[Dec. 2023]** One paper has been accepted at AAAI 2024 (Oral, SRRAI Track).
 - **[Dec. 2023]** Achieved HDR WiEIT (Women in Engineering and IT) Award.
