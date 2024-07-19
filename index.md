@@ -13,7 +13,6 @@ My research focuses on:
 - **Value alignment** and **bias mitigation** in language models.
 
 
-<span style="color: red;">Seeking research intern opportunities in 2024 \[AU/US/Remote] - feel free to reach out!</span>
 
 
 ## News
