@@ -11,5 +11,5 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 20px;">
-  <li><autocolor>2024: ARR ACL, AAMAS, Neurips, ICML Workshop TiFA, EMNLP Workshop WiNLP</autocolor></li>
+  <li><autocolor>2024: ARR ACL, AAMAS, Neurips, EMNLP, ICML Workshop TiFA</autocolor></li>
 </ul>
