@@ -17,7 +17,6 @@ My research focuses on:
 
 ## News
 - **[Jun. 2024]** One co-authored paper has been accepted at ECAI conference.
-- **[Jun. 2024]** One paper has been accepted at ACL 2024 Wordplay Workshop.
 - **[May 2024]** One co-authored paper has been accepted at ACL 2024 findings.
 - **[Dec. 2023]** One co-authored paper has been accepted at AAAI 2024 (Main Track).
 - **[Dec. 2023]** One paper has been accepted at AAAI 2024 (Oral, SRRAI Track).
