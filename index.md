@@ -18,7 +18,7 @@ My research focuses on:
 ## News
 - **[Jan. 2025]** One paper has been accepted at ICLR conference.
 - **[Dec. 2024]** One co-authored paper has been accepted at NAACL 2024 conference.
-- **[Dec. 2024]** One co-authored paper has been accepted at AAMAS conference (Extended Abstract).
+<!-- - **[Dec. 2024]** One co-authored paper has been accepted at AAMAS conference (Extended Abstract). -->
 - **[Jun. 2024]** One co-authored paper has been accepted at ECAI conference.
 - **[May 2024]** One co-authored paper has been accepted at ACL 2024 findings.
 - **[Dec. 2023]** One co-authored paper has been accepted at AAAI 2024 (Main Track).
