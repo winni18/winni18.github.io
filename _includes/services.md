@@ -11,16 +11,12 @@
 <h4 style="margin:0 10px 0;">Journal Reviewer</h4>
 
 <ul style="margin:0 0 20px;">
-  <li><autocolor>Neural Computing and Applications</autocolor></a></li>
-</ul>
-<ul style="margin:0 0 20px;">
-  <li><autocolor>IEEE Transactions on Artificial Intelligence</autocolor></a></li>
+  <li><autocolor>Neural Computing and Applications</autocolor></li>
+  <li><autocolor>IEEE Transactions on Artificial Intelligence</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Conference Reviewer</h4>
 <ul style="margin:0 0 20px;">
   <li><autocolor>2025: ICLR, ICML, NeurIPS, COLM, EMNLP</autocolor></li>
-</ul>
-<ul style="margin:0 0 20px;">
   <li><autocolor>2024: ICLR, ICML, NeurIPS, AAMAS, ACL, EMNLP</autocolor></li>
 </ul>
