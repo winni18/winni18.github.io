@@ -25,10 +25,10 @@
 
   .pub-row .col-sm-9{ padding:0 14px; }
 
-  .pub-row .title{ font-size:14px; margin:0; }
+  .pub-row .title{ font-size:16px; margin:0; }
   .pub-row .author,
   .pub-row .periodical{ font-size:12px; }
-  .pub-row .links a{ font-size:11px !important; }
+  .pub-row .links a{ font-size:12px !important; }
 
   .abbr > .badge{
     position: absolute;
@@ -45,7 +45,7 @@
 </style>
 
 
-<h2 id="publications" style="margin:6px 0 6px;">Selected Papers</h2>
+<h2 id="publications" style="margin:8px 0 8px;">Selected Papers</h2>
 
 <div class="publications">
 
@@ -97,7 +97,7 @@
       <div class="links">
         <a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/241855945/AAAI_humal_3_.pdf" class="btn btn-sm z-depth-0" target="_blank">PDF</a>
         <a href="https://winni18.github.io/" class="btn btn-sm z-depth-0" target="_blank">Code</a>
-        <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+        <strong><i style="color:#e74d3c">Oral</i></strong>
       </div>
     </div>
   </div>
