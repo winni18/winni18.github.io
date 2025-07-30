@@ -1,7 +1,7 @@
 <style>
   :root{
-    --thumb-w:110px;   
-    --thumb-h:80px;   
+    --thumb-w:120px;   
+    --thumb-h:90px;   
   }
   .publications{ margin:0; padding:0; }
 
