@@ -6,6 +6,24 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/iclr25.jpg" class="teaser img-fluid z-depth-1" style="max-width: 100%; max-height: 100%;">
+    <abbr class="badge">ICLR</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a >Monte carlo planning with large language model for text-based game agents </a></div>
+    <div class="author"><strong>Zijing Shi<strong>, Meng Fang, Ling Chen</div>
+    <div class="periodical"><em><strong>ICLR</strong> 2025.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2504.16855" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://textgamer.github.io/mc-dml" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/aaai24_1.png" class="teaser img-fluid z-depth-1" style="max-width: 100%; max-height: 100%;">
     <abbr class="badge">AAAI</abbr>
   </div>
