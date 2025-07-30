@@ -15,11 +15,11 @@
 </ul>
 
 <button id="toggle-news" onclick="toggleNews()" style="
-  margin-top: 2px;
-  padding: 6px 16px;
+  display: inline;
+  padding: 2px 10px;
   background-color: transparent;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: 12px;
   color: #0969da;
   cursor: pointer;
@@ -30,11 +30,7 @@
 
 <style>
   #toggle-news:hover {
-    background-color: rgba(9, 105, 218, 0.08); /* subtle blue hover */
-  }
-
-  #toggle-news:active {
-    background-color: rgba(9, 105, 218, 0.15);
+    background-color: rgba(9, 105, 218, 0.08);
   }
 </style>
 
