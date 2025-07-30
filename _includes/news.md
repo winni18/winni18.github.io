@@ -17,19 +17,24 @@
 <button id="toggle-news" onclick="toggleNews()" style="
   margin-top: 4px;
   padding: 6px 16px;
-  background-color: #f6f8fa;
-  border: 1px solid #d0d7de;
+  background-color: transparent;
+  border: none;
   border-radius: 6px;
-  font-size: 9px;
-  color: #24292f;
+  font-size: 10px;
+  color: #0969da;
   cursor: pointer;
   transition: background-color 0.2s ease;
 ">
   Show More
 </button>
+
 <style>
   #toggle-news:hover {
-    background-color: #eaeef2;
+    background-color: rgba(9, 105, 218, 0.08); /* subtle blue hover */
+  }
+
+  #toggle-news:active {
+    background-color: rgba(9, 105, 218, 0.15);
   }
 </style>
 
