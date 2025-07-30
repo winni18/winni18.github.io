@@ -15,12 +15,12 @@
 </ul>
 
 <button id="toggle-news" onclick="toggleNews()" style="
-  margin-top: 4px;
+  margin-top: 2px;
   padding: 6px 16px;
   background-color: transparent;
   border: none;
   border-radius: 6px;
-  font-size: 10px;
+  font-size: 12px;
   color: #0969da;
   cursor: pointer;
   transition: background-color 0.2s ease;
