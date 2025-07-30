@@ -17,6 +17,6 @@
 
 <h4 style="margin:0 10px 0;">Conference Reviewer</h4>
 <ul style="margin:0 0 20px;">
-  <li><autocolor>2025: ICLR, ICML, NeurIPS, COLM, EMNLP</autocolor></li>
+  <li><autocolor>2025: ICLR, ICML, NeurIPS, AAAI, COLM, ACL, EMNLP</autocolor></li>
   <li><autocolor>2024: ICLR, ICML, NeurIPS, AAMAS, ACL, EMNLP</autocolor></li>
 </ul>
