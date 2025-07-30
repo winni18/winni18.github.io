@@ -1,34 +1,41 @@
-<!-- ====== <head> 中的样式 ====== -->
 <style>
-  /* ——— 缩略图尺寸（可调整） ——— */
-  :root {
-    --thumb-w: 96px; /* 宽从 80 → 96 */
-    --thumb-h: 72px; /* 高从 60 → 72 */
+  :root{
+    --thumb-w:110px;  
+    --thumb-h:80px; 
   }
 
-  /* 行距 & 布局 */
-  .pub-row { margin: 4px 0; display: flex; align-items: flex-start; }
-  .pub-row .abbr  {
-    width: calc(var(--thumb-w) + 4px);
-    flex: 0 0 calc(var(--thumb-w) + 4px);
-    padding: 0 2px;
-    position: relative;
+  .bibliography{ margin:0; padding-left:0; }
+  .bibliography li{
+    margin:2px 0;    
+    padding:0;
+    list-style-position:inside;
   }
-  .pub-row img.teaser {
-    width: var(--thumb-w) !important;
-    height: var(--thumb-h) !important;
-    object-fit: cover;
+  .pub-row{
+    margin:2px 0;    
+    display:flex;
+    align-items:flex-start;
   }
-  .pub-row .col-sm-9 { padding: 0 10px; }
 
-  .pub-row .title      { font-size: 14px; margin: 0; }
-  .pub-row .author     { font-size: 12px; }
-  .pub-row .periodical { font-size: 12px; }
-  .pub-row .links a    { font-size: 11px !important; }
+  .pub-row .abbr{
+    width:calc(var(--thumb-w) + 8px);
+    flex:0 0 calc(var(--thumb-w) + 8px);
+    padding:0 4px;
+    position:relative;
+  }
+  .pub-row img.teaser{
+    width:var(--thumb-w) !important;
+    height:var(--thumb-h) !important;
+    object-fit:cover;
+  }
 
-  .bibliography    { margin: 0; padding-left: 0; }
-  .bibliography li { list-style-position: inside; }
+  .pub-row .col-sm-9{ padding:0 14px; }
+
+  .pub-row .title{ font-size:14px; margin:0; }
+  .pub-row .author,
+  .pub-row .periodical{ font-size:12px; }
+  .pub-row .links a{ font-size:11px !important; }
 </style>
+
 
 <h2 id="publications" style="margin:2px 0 -15px;">Selected Papers</h2>
 
