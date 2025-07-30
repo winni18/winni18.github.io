@@ -45,7 +45,7 @@
 </style>
 
 
-<h2 id="publications" style="margin:12px 0 12px;">Selected Papers</h2>
+<h2 id="publications" style="margin:16px 0 16px;">Selected Papers</h2>
 
 <div class="publications">
 
