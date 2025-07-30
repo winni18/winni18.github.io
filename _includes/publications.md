@@ -25,7 +25,7 @@
 
   .pub-row .col-sm-9{ padding:0 14px; }
 
-  .pub-row .title{ font-size:16px; margin:0; }
+  .pub-row .title{ font-size:15px; margin:0; }
   .pub-row .author,
   .pub-row .periodical{ font-size:12px; }
   .pub-row .links a{ font-size:12px !important; }
@@ -93,11 +93,10 @@
     <div class="col-sm-9">
       <div class="title"><a target="_blank">Human‑Guided Moral Decision Making in Text‑based Games</a></div>
       <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen, Yali Du, Jun Wang</div>
-      <div class="periodical"><em><strong>AAAI</strong> 2024.</em></div>
+      <div class="periodical"><em><strong>AAAI (Oral)</strong> 2024.</em></div>
       <div class="links">
         <a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/241855945/AAAI_humal_3_.pdf" class="btn btn-sm z-depth-0" target="_blank">PDF</a>
         <a href="https://winni18.github.io/" class="btn btn-sm z-depth-0" target="_blank">Code</a>
-        <strong><i style="color:#e74d3c">Oral</i></strong>
       </div>
     </div>
   </div>
