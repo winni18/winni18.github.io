@@ -27,8 +27,8 @@
 
   .pub-row .title{ font-size:15px; margin:0; }
   .pub-row .author,
-  .pub-row .periodical{ font-size:12px; }
-  .pub-row .links a{ font-size:12px !important; }
+  .pub-row .periodical{ font-size:14px; }
+  .pub-row .links a{ font-size:14px !important; }
 
   .abbr > .badge{
     position: absolute;
