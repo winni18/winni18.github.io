@@ -20,7 +20,7 @@
   background-color: #f6f8fa;
   border: 1px solid #d0d7de;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 9px;
   color: #24292f;
   cursor: pointer;
   transition: background-color 0.2s ease;

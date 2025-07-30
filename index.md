@@ -10,7 +10,7 @@ I am also fortunate to be advised by [A/Prof. Meng Fang](https://mengf1.github.i
 
 My research focuses on building intelligent agents that are not only **efficient** but also **trustworthy** in open environments. Specifically, I work on:  
 1) Designing **LLM- and RL-based agents** for natural language interaction;  
-2) Exploring **value alignment** and **bias mitigation** in language models.
+2) Exploring **value alignment** and **bias mitigation** in these agents.
 
 
 {% include_relative _includes/news.md %}
