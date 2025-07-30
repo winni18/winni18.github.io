@@ -14,7 +14,26 @@
   <li class="extra-news"><strong>[Jan. 2023]</strong> One paper has been accepted at the ICLR 2023 conference.</li>
 </ul>
 
-<button id="toggle-news" onclick="toggleNews()">Show More</button>
+<button id="toggle-news" onclick="toggleNews()" style="
+  margin-top: 12px;
+  padding: 6px 16px;
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #24292f;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+">
+  Show More
+</button>
+
+<style>
+  #toggle-news:hover {
+    background-color: #eaeef2;
+  }
+</style>
+
 
 <script>
   function toggleNews() {
