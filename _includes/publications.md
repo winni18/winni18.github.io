@@ -29,10 +29,23 @@
   .pub-row .author,
   .pub-row .periodical{ font-size:12px; }
   .pub-row .links a{ font-size:11px !important; }
+
+  .abbr > .badge{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    padding: 2px 4px;
+    background: #17a2b8;  
+    color: #fff;
+    font-size: 10px;
+    border-radius: 2px;
+    line-height: 1;
+    z-index: 1;       
+  }
 </style>
 
 
-<h2 id="publications" style="margin:2px 0 -15px;">Selected Papers</h2>
+<h2 id="publications" style="margin:6px 0 6px;">Selected Papers</h2>
 
 <div class="publications">
 
