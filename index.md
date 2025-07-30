@@ -12,8 +12,6 @@ My research focuses on building intelligent agents that are not only **efficient
 1) Designing **LLM- and RL-based agents** for natural language interaction;  
 2) Exploring **value alignment** and **bias mitigation** in language models.
 
-Please feel free to get in touch if our research interests align.
-
 
 {% include_relative _includes/news.md %}
 
