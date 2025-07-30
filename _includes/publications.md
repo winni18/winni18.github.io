@@ -6,7 +6,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/iclr25.jpg" class="teaser img-fluid z-depth-1" style="max-width: 100%; max-height: 100%;">
+    <img src="assets/img/iclr25.jpg" class="teaser img-fluid z-depth-1" style="width: 120px; height: auto;">
     <abbr class="badge">ICLR</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -24,7 +24,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/aaai24_1.png" class="teaser img-fluid z-depth-1" style="max-width: 100%; max-height: 100%;">
+    <img src="assets/img/aaai24_1.png" class="teaser img-fluid z-depth-1" style="width: 120px; height: auto;">
     <abbr class="badge">AAAI</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -42,7 +42,8 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/aaai24_2.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/aaai24_2.png" class="teaser img-fluid z-depth-1"
+    style="width: 120px; height: auto;">
     <abbr class="badge">AAAI</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -61,7 +62,8 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/acl2023.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/acl2023.png" class="teaser img-fluid z-depth-1"
+    style="width: 120px; height: auto;">
     <abbr class="badge">ACL</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
