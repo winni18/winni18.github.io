@@ -15,7 +15,7 @@
 </ul>
 
 <button id="toggle-news" onclick="toggleNews()" style="
-  margin-top: 12px;
+  margin-top: 4px;
   padding: 6px 16px;
   background-color: #f6f8fa;
   border: 1px solid #d0d7de;
@@ -27,7 +27,6 @@
 ">
   Show More
 </button>
-
 <style>
   #toggle-news:hover {
     background-color: #eaeef2;
