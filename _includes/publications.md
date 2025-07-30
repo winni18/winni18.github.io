@@ -6,7 +6,7 @@
   .publications{ margin:0; padding:0; }
 
   .pub-row{
-    margin:4px 0;      
+    margin:6px 0;      
     display:flex;
     align-items:flex-start;
   }
