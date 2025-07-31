@@ -108,9 +108,7 @@
     </div>
     <div class="col-sm-9">
       <div class="title">
-        <a href="https://arxiv.org/abs/2305.11262" target="_blank">
-          CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models
-        </a>
+        <a href="https://arxiv.org/abs/2305.11262" target="_blank">CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models</a>
       </div>
       <div class="author">Jiaxu Zhao*, Meng Fang*, <strong>Zijing Shi</strong>, Yitong Li, Ling Chen, Mykola Pechenizkiy</div>
       <div class="periodical"><em><strong>ACL</strong> 2023.</em></div>
