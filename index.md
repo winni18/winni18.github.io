@@ -5,8 +5,7 @@ layout: homepage
 ## About Me
 
 
-I'm a third-year Ph.D. student at [AAII UTS](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), supervised by [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
-I am also fortunate to be advised by [A/Prof. Meng Fang](https://mengf1.github.io/) at the University of Liverpool.
+I am Zijing Shi, currently a Postdoctoral Research Associate at [AAII UTS](https://www.uts.edu.au/research/australian-artificial-intelligence-institute). I completed my Ph.D. at UTS under the supervision of [Prof. Ling Chen](https://profiles.uts.edu.au/Ling.Chen). 
 
 My research focuses on building intelligent agents that are not only **efficient** but also **trustworthy** in open environments. Specifically, I work on:  
 1) Designing **LLM- and RL-based agents** for natural language interaction;  
