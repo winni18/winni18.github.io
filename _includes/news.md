@@ -1,7 +1,7 @@
 <h2>News</h2>
 <ul id="news-list">
   <li><strong>[Dec. 2025]</strong> Received the UTS AAII Student Best Paper Award in the category of AI Theory and Algorithms.</li>
-  <li><strong>[Jan. 2025]</strong> One paper on planning capabilities of game agents has been accepted at ICLR conference. <a href="https://arxiv.org/abs/2504.16855" target="_blank">[arXiv]</a></li>
+  <li><strong>[Jan. 2025]</strong> One paper on <strong>planning capabilities of game agents</strong> has been accepted at ICLR conference. <a href="https://arxiv.org/abs/2504.16855" target="_blank">[Paper]</a></li>
   <li class="extra-news"><strong>[Dec. 2023]</strong> One paper has been accepted at AAAI 2024 (Oral, SRRAI Track).</li>
   <li class="extra-news"><strong>[Dec. 2023]</strong> Achieved HDR WiEIT (Women in Engineering and IT) Award.</li>
   <li class="extra-news"><strong>[Oct. 2023]</strong> Achieved 1st place in School of Computer Science Research Showcase.</li>
