@@ -467,30 +467,90 @@ autocolor { color: inherit; }
    Services
    ===================================================== */
 .services-block {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-3) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
 }
 
-.services-block h4 {
-  margin: 0 0 var(--space-1);
-  font-size: 14px;
-  font-weight: 600;
+.services-section h4 {
+  margin: 0 0 var(--space-2);
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--c-border);
+  font-size: 12px;
+  font-weight: 700;
   color: var(--c-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.service-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.service-entries .entry {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.entry-year {
+  flex: 0 0 50px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--c-text-muted);
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-body);
+}
+
+.entry-desc { flex: 1 1 auto; }
+
+.reviewer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.reviewer-row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.reviewer-label {
+  flex: 0 0 96px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--c-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
-.services-block ul {
-  margin: 0 0 var(--space-3);
-  padding-left: 18px;
-  font-size: 14px;
+.reviewer-content { flex: 1 1 auto; min-width: 0; }
+
+.conf-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-.services-block ul li { line-height: 1.5; margin-bottom: 2px; }
-
-.services-block > h4:nth-of-type(3),
-.services-block > h4:nth-of-type(3) + ul { grid-column: 1 / -1; }
+.conf-tag {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+  padding: 1px 8px;
+  border: 1px solid var(--c-border);
+  border-radius: 3px;
+  color: var(--c-text);
+  background: var(--c-surface);
+}
 
 /* =====================================================
    About me list (the "1) ... 2) ..." in index.md)
@@ -561,9 +621,8 @@ footer {
     max-height: 220px;
   }
 
-  .services-block { grid-template-columns: 1fr; }
-  .services-block > h4:nth-of-type(3),
-  .services-block > h4:nth-of-type(3) + ul { grid-column: auto; }
+  .reviewer-label { flex: 0 0 80px; }
+  .entry-year { flex: 0 0 44px; }
 
   h1 { font-size: 24px; }
   h2 { font-size: 18px; }
