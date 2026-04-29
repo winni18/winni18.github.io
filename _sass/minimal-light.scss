@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h1 { font-size: 28px; margin-bottom: var(--space-2); }
+h1 { font-size: 32px; margin-bottom: var(--space-3); letter-spacing: -0.02em; }
 h2 {
   font-size: 20px;
   color: var(--c-accent);
@@ -136,9 +136,9 @@ section { width: 100%; }
 .profile-header {
   display: flex;
   align-items: center;
-  gap: var(--space-6);
-  padding-bottom: var(--space-5);
-  margin-bottom: var(--space-2);
+  gap: var(--space-7);
+  padding-bottom: var(--space-6);
+  margin-bottom: var(--space-3);
   border-bottom: 1px solid var(--c-border);
 }
 
@@ -147,8 +147,8 @@ section { width: 100%; }
 
 .profile-avatar .image.avatar {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   overflow: hidden;
   border: 0;
@@ -163,21 +163,28 @@ section { width: 100%; }
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
 }
 
-.header-info { margin: var(--space-2) 0 var(--space-3); line-height: 1.55; }
-
-.header-position {
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--c-text-strong);
+.header-info {
+  margin: var(--space-3) 0 var(--space-4);
+  line-height: 1.7;
 }
 
-.header-affiliation { font-size: 14.5px; }
-.header-email { margin-top: 2px; }
+.header-position {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: var(--c-text-strong);
+  margin-bottom: 2px;
+}
+
+.header-affiliation {
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+.header-email { margin-top: 6px; }
 
 /* =====================================================
    Social Icons
    ===================================================== */
-.social-icons { margin-top: var(--space-1); }
+.social-icons { margin-top: var(--space-3); }
 
 .social-icons a {
   display: inline-block;
