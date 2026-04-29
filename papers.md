@@ -62,7 +62,7 @@ permalink: /papers/
     </div>
     <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen</div>
     <div class="meta">
-      <span class="venue">ACL 2026 (Main)</span>
+      <span class="venue">ACL 2026 </span>
       <span class="links">
         <a href="https://webdecept.github.io/" target="_blank">Project</a>
       </span>

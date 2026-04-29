@@ -11,7 +11,7 @@
     <div class="research-body">
       <div class="research-title">Agentic Reasoning and Planning</div>
       <div class="research-tldr">
-        <strong>TL;DR:</strong> Building language agents that can reason, plan, and act in interactive environments by combining LLMs with reinforcement learning and search.
+        <strong>TL;DR:</strong> Building language agents that can reason, plan, and act in interactive environments.
       </div>
       <div class="research-tags">
         <a class="tag tag-active" href="{{ papers_base }}#game-agents" title="View papers on game agents">Game agents</a>
