@@ -3,106 +3,94 @@
 <div class="publications">
 
   <div class="pub-row">
-    <div class="abbr">
-      <img src="assets/img/iclr25.jpg" class="teaser">
-      <abbr class="badge">ICLR</abbr>
+    <div class="title">
+      <a href="https://webdecept.github.io/" target="_blank">Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces</a>
     </div>
-    <div class="col-sm-9">
-      <div class="title">
-        <a href="https://arxiv.org/abs/2504.16855" target="_blank">Monte Carlo Planning with Large Language Models for Text-based Game Agents</a>
-      </div>
-      <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen</div>
-      <div class="periodical"><em><strong>ICLR</strong> 2025</em></div>
-      <div class="links">
+    <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen</div>
+    <div class="meta">
+      <span class="venue">ACL 2026 (Main)</span>
+      <span class="links">
+        <a href="https://webdecept.github.io/" target="_blank">Project</a>
+      </span>
+    </div>
+  </div>
+
+  <div class="pub-row">
+    <div class="title">
+      <a href="https://arxiv.org/abs/2504.16855" target="_blank">Monte Carlo Planning with Large Language Models for Text-based Game Agents</a>
+    </div>
+    <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen</div>
+    <div class="meta">
+      <span class="venue">ICLR 2025</span>
+      <span class="links">
         <a href="https://arxiv.org/abs/2504.16855" target="_blank">PDF</a>
         <a href="https://textgamer.github.io/mc-dml" target="_blank">Code</a>
-      </div>
+      </span>
     </div>
   </div>
 
   <div class="pub-row">
-    <div class="abbr">
-      <img src="assets/img/aaai24_1.png" class="teaser">
-      <abbr class="badge">AAAI</abbr>
-    </div>
-    <div class="col-sm-9">
-      <div class="title"><a target="_blank">Large Language Models are Neurosymbolic Reasoners</a></div>
-      <div class="author">Meng Fang*, Shilong Deng*, Yudi Zhang*, <strong>Zijing Shi</strong>, Ling Chen, Mykola Pechenizkiy, Jun Wang</div>
-      <div class="periodical"><em><strong>AAAI</strong> 2024</em></div>
-      <div class="links">
+    <div class="title">Large Language Models are Neurosymbolic Reasoners</div>
+    <div class="author">Meng Fang*, Shilong Deng*, Yudi Zhang*, <strong>Zijing Shi</strong>, Ling Chen, Mykola Pechenizkiy, Jun Wang</div>
+    <div class="meta">
+      <span class="venue">AAAI 2024</span>
+      <span class="links">
         <a href="https://arxiv.org/abs/2401.09334" target="_blank">PDF</a>
         <a href="https://github.com/hyintell/LLMSymbolic" target="_blank">Code</a>
-      </div>
+      </span>
     </div>
   </div>
 
   <div class="pub-row">
-    <div class="abbr">
-      <img src="assets/img/aaai24_2.png" class="teaser">
-      <abbr class="badge">AAAI</abbr>
-    </div>
-    <div class="col-sm-9">
-      <div class="title"><a target="_blank">Human-Guided Moral Decision Making in Text-based Games</a></div>
-      <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen, Yali Du, Jun Wang</div>
-      <div class="periodical"><em><strong>AAAI (Oral)</strong> 2024</em></div>
-      <div class="links">
+    <div class="title">Human-Guided Moral Decision Making in Text-based Games</div>
+    <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Ling Chen, Yali Du, Jun Wang</div>
+    <div class="meta">
+      <span class="venue">AAAI 2024 <em>(Oral)</em></span>
+      <span class="links">
         <a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/241855945/AAAI_humal_3_.pdf" target="_blank">PDF</a>
-        <a href="https://winni18.github.io/" target="_blank">Code</a>
-      </div>
+      </span>
     </div>
   </div>
 
   <div class="pub-row">
-    <div class="abbr">
-      <img src="assets/img/acl2023.png" class="teaser">
-      <abbr class="badge">ACL</abbr>
+    <div class="title">
+      <a href="https://arxiv.org/abs/2305.11262" target="_blank">CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models</a>
     </div>
-    <div class="col-sm-9">
-      <div class="title">
-        <a href="https://arxiv.org/abs/2305.11262" target="_blank">CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models</a>
-      </div>
-      <div class="author">Jiaxu Zhao*, Meng Fang*, <strong>Zijing Shi</strong>, Yitong Li, Ling Chen, Mykola Pechenizkiy</div>
-      <div class="periodical"><em><strong>ACL</strong> 2023</em></div>
-      <div class="links">
+    <div class="author">Jiaxu Zhao*, Meng Fang*, <strong>Zijing Shi</strong>, Yitong Li, Ling Chen, Mykola Pechenizkiy</div>
+    <div class="meta">
+      <span class="venue">ACL 2023</span>
+      <span class="links">
         <a href="https://arxiv.org/abs/2305.11262" target="_blank">PDF</a>
         <a href="https://github.com/hyintell/CHBias" target="_blank">Code</a>
-      </div>
+      </span>
     </div>
   </div>
 
   <div class="pub-row">
-    <div class="abbr">
-      <img src="assets/img/iclr2023.png" class="teaser">
-      <abbr class="badge">ICLR</abbr>
+    <div class="title">
+      <a href="https://openreview.net/pdf?id=CtS2Rs_aYk" target="_blank">Stay Moral and Explore: Learn to Behave Morally in Text-based Games</a>
     </div>
-    <div class="col-sm-9">
-      <div class="title">
-        <a href="https://openreview.net/pdf?id=CtS2Rs_aYk" target="_blank">Stay Moral and Explore: Learn to Behave Morally in Text-based Games</a>
-      </div>
-      <div class="author"><strong>Zijing Shi*</strong>, Meng Fang*, Yunqiu Xu, Ling Chen, Yali Du</div>
-      <div class="periodical"><em><strong>ICLR</strong> 2023</em></div>
-      <div class="links">
+    <div class="author"><strong>Zijing Shi*</strong>, Meng Fang*, Yunqiu Xu, Ling Chen, Yali Du</div>
+    <div class="meta">
+      <span class="venue">ICLR 2023</span>
+      <span class="links">
         <a href="https://openreview.net/pdf?id=CtS2Rs_aYk" target="_blank">PDF</a>
         <a href="https://github.com/winni18/MorAL" target="_blank">Code</a>
-      </div>
+      </span>
     </div>
   </div>
 
   <div class="pub-row">
-    <div class="abbr">
-      <img src="assets/img/eacl2023.png" class="teaser">
-      <abbr class="badge">EACL</abbr>
+    <div class="title">
+      <a href="https://aclanthology.org/2023.eacl-main.50.pdf" target="_blank">Self-imitation Learning for Action Generation in Text-based Games</a>
     </div>
-    <div class="col-sm-9">
-      <div class="title">
-        <a href="https://aclanthology.org/2023.eacl-main.50.pdf" target="_blank">Self-imitation Learning for Action Generation in Text-based Games</a>
-      </div>
-      <div class="author"><strong>Zijing Shi</strong>, Yunqiu Xu, Meng Fang, Ling Chen</div>
-      <div class="periodical"><em><strong>EACL</strong> 2023</em></div>
-      <div class="links">
+    <div class="author"><strong>Zijing Shi</strong>, Yunqiu Xu, Meng Fang, Ling Chen</div>
+    <div class="meta">
+      <span class="venue">EACL 2023</span>
+      <span class="links">
         <a href="https://aclanthology.org/2023.eacl-main.50.pdf" target="_blank">PDF</a>
         <a href="https://github.com/winni18/CSM" target="_blank">Code</a>
-      </div>
+      </span>
     </div>
   </div>
 
