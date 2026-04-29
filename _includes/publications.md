@@ -1,51 +1,92 @@
 <style>
   :root{
-    --thumb-w:120px;   
-    --thumb-h:90px;   
+    --thumb-w:120px;
+    --thumb-h:90px;
   }
   .publications{ margin:0; padding:0; }
 
   .pub-row{
-    margin:10px 0;      
+    margin: 8px 0 10px;
+    padding: 6px 0;
     display:flex;
     align-items:flex-start;
+    border-bottom: 1px solid transparent;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  .pub-row:hover{
+    border-bottom-color: rgba(4, 51, 97, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    .pub-row:hover{ border-bottom-color: rgba(62, 183, 240, 0.18); }
   }
 
   .pub-row .abbr{
-    width:calc(var(--thumb-w) + 8px);
-    flex:0 0 calc(var(--thumb-w) + 8px);
-    padding:0 4px;
-    position:relative;
+    width: var(--thumb-w);
+    flex: 0 0 var(--thumb-w);
+    padding: 0;
+    position: relative;
   }
   .pub-row img.teaser{
-    width:var(--thumb-w) !important;
-    height:var(--thumb-h) !important;
-    object-fit:cover;
+    width: var(--thumb-w) !important;
+    height: var(--thumb-h) !important;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease;
+  }
+  .pub-row:hover img.teaser{
+    transform: scale(1.02);
   }
 
-  .pub-row .col-sm-9{ padding:0 14px; }
+  .pub-row .col-sm-9{ padding: 0 0 0 14px; flex: 1 1 auto; }
 
-  .pub-row .title{ font-size:15px; margin:0; }
+  .pub-row .title{ font-size: 15px; margin: 0 0 2px; line-height: 1.35; font-weight: 600; }
   .pub-row .author,
-  .pub-row .periodical{ font-size:14px; }
-  .pub-row .links a{ font-size:14px !important; }
+  .pub-row .periodical{ font-size: 14px; line-height: 1.4; }
+  .pub-row .periodical{ margin-top: 2px; }
+  .pub-row .links{ margin-top: 4px; }
+  .pub-row .links a{
+    font-size: 13px !important;
+    margin-right: 6px;
+    color: #043361;
+    border: 1px solid rgba(4, 51, 97, 0.35);
+    border-radius: 3px;
+    padding: 1px 7px;
+    transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+  }
+  .pub-row .links a:hover{
+    color: #fff;
+    background-color: #043361;
+    border-color: #043361;
+  }
+  @media (prefers-color-scheme: dark) {
+    .pub-row .links a{
+      color: #3eb7f0;
+      border-color: rgba(62, 183, 240, 0.45);
+    }
+    .pub-row .links a:hover{
+      color: #20212b;
+      background-color: #3eb7f0;
+      border-color: #3eb7f0;
+    }
+  }
 
   .abbr > .badge{
     position: absolute;
     top: 4px;
     left: 4px;
-    padding: 2px 4px;
-    background: #17a2b8;  
+    padding: 2px 5px;
+    background: #17a2b8;
     color: #fff;
     font-size: 10px;
     border-radius: 2px;
     line-height: 1;
-    z-index: 1;       
+    z-index: 1;
   }
 </style>
 
 
-<h2 id="publications" style="margin:16px 0 16px;">Selected Papers</h2>
+<h2 id="publications">Selected Papers</h2>
 
 <div class="publications">
 
