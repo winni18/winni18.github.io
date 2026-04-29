@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
 
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{{ site.title }} | {{ site.university | default: site.affiliation }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +40,11 @@
             {% if site.affiliation %}
             <div class="header-affiliation">
               <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+            </div>
+            {% endif %}
+            {% if site.university %}
+            <div class="header-affiliation">
+              <a href="{{ site.university_link }}" rel="noopener"><autocolor>{{ site.university }}</autocolor></a>
             </div>
             {% endif %}
             {% if site.email %}

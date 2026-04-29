@@ -14,7 +14,7 @@
       <div class="research-tags">
         <span class="tag tag-active">Game agents</span>
         <span class="tag tag-active">Web agents</span>
-        <span class="tag tag-ongoing">Multi-agent simulation</span>
+        <span class="tag tag-active">Multi-agent simulation</span>
       </div>
     </div>
   </div>
