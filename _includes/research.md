@@ -4,7 +4,7 @@
 
   <div class="research-row">
     <div class="research-thumb">
-      <img src="assets/img/iclr25.jpg" alt="Agentic reasoning and planning">
+      <img src="assets/img/agent.png" alt="Agentic reasoning and planning">
     </div>
     <div class="research-body">
       <div class="research-title">Agentic Reasoning and Planning</div>
@@ -21,7 +21,7 @@
 
   <div class="research-row">
     <div class="research-thumb">
-      <img src="assets/img/aaai24_2.png" alt="Trustworthy and aligned agents">
+      <img src="assets/img/safety.png" alt="Trustworthy and aligned agents">
     </div>
     <div class="research-body">
       <div class="research-title">Trustworthy and Aligned Agents</div>
