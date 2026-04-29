@@ -52,7 +52,7 @@
    ===================================================== */
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
 
 body {
   background: var(--c-bg);
@@ -660,6 +660,23 @@ footer {
   width: calc(100% - 40px);
 }
 
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2) var(--space-4);
+  text-align: center;
+}
+
+.footer-meta-sep {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: var(--c-border);
+  flex-shrink: 0;
+}
+
 .last-updated {
   margin: 0;
   font-size: 12px;
@@ -667,9 +684,63 @@ footer {
   letter-spacing: 0.3px;
 }
 
+/* Extreme Tracking (efreecode) — tidy placement next to last-updated */
+.extreme-tracking {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  line-height: 1;
+  opacity: 0.88;
+  transition: opacity 0.2s ease;
+}
+
+.extreme-tracking:hover {
+  opacity: 1;
+}
+
+.extreme-tracking a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  border-bottom: none !important;
+}
+
+.extreme-tracking a:hover {
+  text-decoration: none;
+}
+
+.extreme-tracking img {
+  display: block;
+  height: auto;
+  max-height: 28px;
+  width: auto;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+@media (max-width: 480px) {
+  .site-footer {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .footer-meta-sep {
+    display: none;
+  }
+
+  .extreme-tracking img {
+    max-height: 26px;
+  }
+}
+
 /* =====================================================
    Papers page
    ===================================================== */
+body.papers-page .wrapper {
+  padding-top: 8px;
+}
+
 .papers-page .page-header {
   margin-bottom: var(--space-5);
   padding-bottom: var(--space-3);
@@ -712,6 +783,7 @@ footer {
   padding-bottom: var(--space-2);
   border-bottom: 2px solid var(--c-accent);
   letter-spacing: -0.01em;
+  scroll-margin-top: 96px;
 }
 
 .papers-page section > .theme-heading:first-of-type { margin-top: var(--space-3); }
@@ -724,7 +796,7 @@ footer {
   padding-top: 4px;
   text-transform: none;
   letter-spacing: 0;
-  scroll-margin-top: 24px;
+  scroll-margin-top: 96px;
 }
 
 .topic-heading::before {
@@ -732,6 +804,75 @@ footer {
   color: var(--c-accent);
   margin-right: 8px;
   font-weight: 700;
+}
+
+.papers-toc {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.topic-pill {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 5px 11px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--c-text);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
+}
+
+.topic-pill:hover {
+  border-color: var(--c-accent);
+  color: var(--c-accent);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.topic-pill.is-active {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .topic-pill.is-active {
+    color: #0d1117;
+  }
+  .papers-toc {
+    background: rgba(26, 27, 34, 0.94);
+  }
+}
+
+.topic-pill-spacer {
+  display: inline-block;
+  width: 8px;
+  height: 1px;
+}
+
+@media (max-width: 520px) {
+  .papers-toc {
+    justify-content: flex-start;
+    padding: 8px 12px;
+  }
+  .topic-pill {
+    font-size: 11.5px;
+    padding: 4px 9px;
+  }
 }
 
 /* =====================================================

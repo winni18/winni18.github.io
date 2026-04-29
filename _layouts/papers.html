@@ -11,24 +11,36 @@
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
 
-    <link rel="stylesheet" href="./assets/css/style.css?v={{ site.time | date: '%Y%m%d%H%M' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 
   </head>
   <body class="papers-page">
+
+    <nav class="papers-toc" id="papers-toc" aria-label="Jump to section">
+      <a href="#agentic" class="topic-pill">Planning</a>
+      <a href="#game-agents" class="topic-pill">Game agents</a>
+      <a href="#web-agents" class="topic-pill">Web agents</a>
+      <a href="#multi-agent-simulation" class="topic-pill">Multi-agent</a>
+      <span class="topic-pill-spacer" aria-hidden="true"></span>
+      <a href="#trustworthy" class="topic-pill">Trustworthy</a>
+      <a href="#value-alignment" class="topic-pill">Alignment</a>
+      <a href="#social-bias" class="topic-pill">Bias</a>
+    </nav>
+
     <div class="wrapper">
 
       <header class="page-header">
-        <a href="./" class="back-link">← {{ site.title }}</a>
+        <a href="{{ '/' | relative_url }}" class="back-link">← {{ site.title }}</a>
       </header>
 
-      <section>
+      <section class="papers-section">
         <h1 class="page-title">Publications</h1>
-        <p class="page-subtitle">A full list, organized by research theme. See <a href="https://scholar.google.com/citations?user=dIIHQaMAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> for citations.</p>
+        <p class="page-subtitle">Papers grouped by research theme (jump bar above follows as you scroll). Full citation stats on <a href="https://scholar.google.com/citations?user=dIIHQaMAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
 
         {{ content }}
       </section>
@@ -37,5 +49,6 @@
     <footer>
       <p class="last-updated">Last updated: {{ site.time | date: "%b %Y" }}</p>
     </footer>
+    <script src="{{ '/assets/js/papers-nav.js' | relative_url }}" defer></script>
   </body>
 </html>

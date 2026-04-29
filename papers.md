@@ -4,7 +4,7 @@ title: Publications
 permalink: /papers/
 ---
 
-<h2 class="theme-heading">Agentic Reasoning and Planning</h2>
+<h2 id="agentic" class="theme-heading">Agentic Reasoning and Planning</h2>
 
 <h3 id="game-agents" class="topic-heading">Game agents</h3>
 
@@ -81,9 +81,9 @@ permalink: /papers/
     </div>
     <div class="author"><strong>Zijing Shi</strong>, Meng Fang, Shenghao Zheng, Shilong Deng, Ling Chen, Yali Du</div>
     <div class="meta">
-      <span class="venue">arXiv 2023</span>
+      <span class="venue">IEEE Transactions on Games</span>
       <span class="links">
-        <a href="https://arxiv.org/abs/2312.17515" target="_blank">PDF</a>
+        <a href="https://arxiv.org/abs/2312.17515" target="_blank">arXiv</a>
       </span>
     </div>
   </div>
@@ -106,7 +106,7 @@ permalink: /papers/
 
 </div>
 
-<h2 class="theme-heading">Trustworthy and Aligned Agents</h2>
+<h2 id="trustworthy" class="theme-heading">Trustworthy and Aligned Agents</h2>
 
 <h3 id="value-alignment" class="topic-heading">Value alignment</h3>
 
