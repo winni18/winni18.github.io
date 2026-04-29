@@ -18,4 +18,6 @@ My research focuses on building intelligent agents that are not only **efficient
 
 {% include_relative _includes/publications.md %}
 
+{% include_relative _includes/awards.md %}
+
 {% include_relative _includes/services.md %}
