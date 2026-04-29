@@ -203,7 +203,7 @@ section { width: 100%; }
    ===================================================== */
 email {
   font-family: var(--font-mono);
-  font-size: 14px;
+  font-size: 16px;
   color: var(--c-text-muted);
 }
 
@@ -372,10 +372,11 @@ autocolor { color: inherit; }
 
 .tag {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 1.4;
-  padding: 2px 9px;
-  border-radius: 12px;
+  padding: 4px 12px;
+  border-radius: 14px;
   white-space: nowrap;
 }
 
