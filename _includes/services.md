@@ -20,19 +20,17 @@
 </div>
 
 <style>
-  .services-block h4 {
-    margin: 14px 0 6px;
-    font-size: 1.02rem;
-  }
-  .services-block h4:first-child {
-    margin-top: 0;
-  }
-  .services-block ul {
-    margin: 0 0 6px;
-    padding-left: 18px;
-  }
-  .services-block ul li {
-    line-height: 1.45;
-    margin-bottom: 3px;
+  .services-block { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 32px; }
+  .services-block h4 { margin: 6px 0 4px; }
+  .services-block h4:first-child { margin-top: 0; }
+  .services-block ul { margin: 0 0 8px; padding-left: 18px; }
+  .services-block ul li { line-height: 1.5; margin-bottom: 2px; }
+  .services-block > h4:nth-of-type(3),
+  .services-block > h4:nth-of-type(3) + ul { grid-column: 1 / -1; }
+
+  @media (max-width: 768px) {
+    .services-block { grid-template-columns: 1fr; }
+    .services-block > h4:nth-of-type(3),
+    .services-block > h4:nth-of-type(3) + ul { grid-column: auto; }
   }
 </style>

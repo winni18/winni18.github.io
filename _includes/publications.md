@@ -1,23 +1,24 @@
 <style>
   :root{
-    --thumb-w:120px;
-    --thumb-h:90px;
+    --thumb-w: 160px;
+    --thumb-h: 110px;
   }
   .publications{ margin:0; padding:0; }
 
   .pub-row{
-    margin: 8px 0 10px;
-    padding: 6px 0;
+    margin: 0;
+    padding: 12px 0;
     display:flex;
     align-items:flex-start;
-    border-bottom: 1px solid transparent;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.15s ease;
   }
-  .pub-row:hover{
-    border-bottom-color: rgba(4, 51, 97, 0.08);
-  }
+  .pub-row:last-child { border-bottom: none; }
+  .pub-row:hover{ background-color: rgba(4, 51, 97, 0.025); }
+
   @media (prefers-color-scheme: dark) {
-    .pub-row:hover{ border-bottom-color: rgba(62, 183, 240, 0.18); }
+    .pub-row { border-bottom-color: #2f303a; }
+    .pub-row:hover{ background-color: rgba(62, 183, 240, 0.06); }
   }
 
   .pub-row .abbr{
@@ -30,34 +31,35 @@
     width: var(--thumb-w) !important;
     height: var(--thumb-h) !important;
     object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
     transition: transform 0.2s ease;
   }
   .pub-row:hover img.teaser{
     transform: scale(1.02);
   }
 
-  .pub-row .col-sm-9{ padding: 0 0 0 14px; flex: 1 1 auto; }
+  .pub-row .col-sm-9{ padding: 0 0 0 18px; flex: 1 1 auto; }
 
-  .pub-row .title{ font-size: 15px; margin: 0 0 2px; line-height: 1.35; font-weight: 600; }
+  .pub-row .title{ font-size: 16px; margin: 0 0 3px; line-height: 1.35; font-weight: 600; }
   .pub-row .author,
-  .pub-row .periodical{ font-size: 14px; line-height: 1.4; }
+  .pub-row .periodical{ font-size: 14.5px; line-height: 1.45; }
   .pub-row .periodical{ margin-top: 2px; }
-  .pub-row .links{ margin-top: 4px; }
+  .pub-row .links{ margin-top: 6px; }
   .pub-row .links a{
     font-size: 13px !important;
     margin-right: 6px;
     color: #043361;
     border: 1px solid rgba(4, 51, 97, 0.35);
     border-radius: 3px;
-    padding: 1px 7px;
+    padding: 1px 8px;
     transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
   }
   .pub-row .links a:hover{
     color: #fff;
     background-color: #043361;
     border-color: #043361;
+    text-decoration: none;
   }
   @media (prefers-color-scheme: dark) {
     .pub-row .links a{
@@ -73,15 +75,24 @@
 
   .abbr > .badge{
     position: absolute;
-    top: 4px;
-    left: 4px;
-    padding: 2px 5px;
+    top: 6px;
+    left: 6px;
+    padding: 2px 6px;
     background: #17a2b8;
     color: #fff;
     font-size: 10px;
-    border-radius: 2px;
-    line-height: 1;
+    border-radius: 3px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.3px;
     z-index: 1;
+  }
+
+  @media (max-width: 600px) {
+    .pub-row { flex-direction: column; padding: 14px 0; }
+    .pub-row .abbr { width: 100%; flex: 0 0 auto; margin-bottom: 8px; }
+    .pub-row img.teaser { width: 100% !important; height: auto !important; max-height: 180px; }
+    .pub-row .col-sm-9 { padding: 0; }
   }
 </style>
 
