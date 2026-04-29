@@ -1,4 +1,7 @@
-<h2 id="publications">Selected Papers</h2>
+<h2 id="publications" class="with-more">
+  <span>Selected Papers</span>
+  <a class="more-link" href="https://scholar.google.com/citations?user=dIIHQaMAAAAJ&hl=en" target="_blank" rel="noopener">View all on Google Scholar →</a>
+</h2>
 
 <div class="publications">
 

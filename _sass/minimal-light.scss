@@ -118,6 +118,27 @@ h4 { font-size: 15px; margin: var(--space-3) 0 var(--space-1); color: var(--c-te
 
 section > h2:first-child { margin-top: 0; }
 
+h2.with-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.more-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--c-text-muted);
+  font-family: var(--font-body);
+  letter-spacing: 0;
+  text-transform: none;
+}
+.more-link:hover {
+  color: var(--c-accent);
+  text-decoration: none;
+}
+
 /* =====================================================
    Layout
    ===================================================== */
@@ -474,25 +495,8 @@ autocolor { color: inherit; }
 }
 
 /* =====================================================
-   Services
+   Services (Teaching / Service / Reviewer share these styles)
    ===================================================== */
-.services-block {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-}
-
-.services-section h4 {
-  margin: 0 0 var(--space-2);
-  padding-bottom: 4px;
-  border-bottom: 1px solid var(--c-border);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--c-accent);
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-}
-
 .service-entries {
   display: flex;
   flex-direction: column;
@@ -600,7 +604,18 @@ footer {
   text-align: center;
   font-size: 12px;
   color: var(--c-text-muted);
-  padding: var(--space-3) 0 var(--space-5);
+  padding: var(--space-5) 0 var(--space-5);
+  border-top: 1px solid var(--c-border);
+  margin: var(--space-6) auto 0;
+  max-width: var(--content-w);
+  width: calc(100% - 40px);
+}
+
+.last-updated {
+  margin: 0;
+  font-size: 12px;
+  color: var(--c-text-muted);
+  letter-spacing: 0.3px;
 }
 
 /* =====================================================
