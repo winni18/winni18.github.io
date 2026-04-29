@@ -467,6 +467,42 @@ a.tag-active:hover { background: var(--c-accent-hover); }
   border: 1px dashed var(--c-border);
 }
 
+/* Research topic pills — obvious affordance (after .tag so padding/border win) */
+.research-tags a.tag {
+  cursor: pointer;
+  padding: 5px 14px 5px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.research-tags a.tag::after {
+  content: "→";
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.78em;
+  font-weight: 700;
+  opacity: 0.9;
+  vertical-align: middle;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+
+.research-tags a.tag:hover::after {
+  transform: translateX(2px);
+}
+
+.research-tags a.tag:focus-visible {
+  outline: 2px solid var(--c-accent-hover);
+  outline-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .research-tags a.tag-active {
+    border: 1px solid rgba(13, 17, 23, 0.22);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  }
+}
+
 /* =====================================================
    Publications (de-emphasized text list)
    ===================================================== */

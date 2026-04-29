@@ -14,9 +14,9 @@
         <strong>TL;DR:</strong> Building language agents that can reason, plan, and act in interactive environments by combining LLMs with reinforcement learning and search.
       </div>
       <div class="research-tags">
-        <a class="tag tag-active" href="{{ papers_base }}#game-agents">Game agents</a>
-        <a class="tag tag-active" href="{{ papers_base }}#web-agents">Web agents</a>
-        <a class="tag tag-active" href="{{ papers_base }}#multi-agent-simulation">Multi-agent simulation</a>
+        <a class="tag tag-active" href="{{ papers_base }}#game-agents" title="View papers on game agents">Game agents</a>
+        <a class="tag tag-active" href="{{ papers_base }}#web-agents" title="View papers on web agents">Web agents</a>
+        <a class="tag tag-active" href="{{ papers_base }}#multi-agent-simulation" title="View papers on multi-agent simulation">Multi-agent simulation</a>
       </div>
     </div>
   </div>
@@ -31,8 +31,8 @@
         <strong>TL;DR:</strong> Studying value alignment and social bias to make language agents safer and more responsible in open-ended settings.
       </div>
       <div class="research-tags">
-        <a class="tag tag-active" href="{{ papers_base }}#value-alignment">Value alignment</a>
-        <a class="tag tag-active" href="{{ papers_base }}#social-bias">Social bias in LLMs</a>
+        <a class="tag tag-active" href="{{ papers_base }}#value-alignment" title="View papers on value alignment">Value alignment</a>
+        <a class="tag tag-active" href="{{ papers_base }}#social-bias" title="View papers on social bias in LLMs">Social bias in LLMs</a>
       </div>
     </div>
   </div>
