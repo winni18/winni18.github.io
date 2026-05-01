@@ -609,8 +609,16 @@ a.tag-active:hover { background: var(--c-accent-hover); }
   gap: var(--space-2);
 }
 
-.service-entries + .reviewer {
+.service-entries + .reviewer-intro {
   margin-top: var(--space-3);
+}
+
+.reviewer-intro {
+  margin: 0 0 var(--space-2);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-text-muted);
+  letter-spacing: 0.02em;
 }
 
 .reviewer-row {

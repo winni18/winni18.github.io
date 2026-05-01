@@ -24,6 +24,8 @@
   </div>
 </div>
 
+<p class="reviewer-intro">Peer reviewer</p>
+
 <div class="reviewer">
   <div class="reviewer-row">
     <span class="reviewer-label">Journals</span>
